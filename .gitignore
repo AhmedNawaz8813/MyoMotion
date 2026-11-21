@@ -28,6 +28,9 @@ data/processed/
 docs/resarchpapers/
 
 
+# Firmware secrets (encryption keys, Wi-Fi password): made by scripts/semg/make_link_keys.py, never committed
+hardware/**/secrets.h
+
 # Jupyter
 .ipynb_checkpoints/
 
